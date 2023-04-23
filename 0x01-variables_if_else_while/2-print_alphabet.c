@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time>
+
 /**
   *main - Entry point
   *Description: 'print all alphabet lowercase'
@@ -6,13 +9,12 @@
   */
 int main(void)
 {
-	int n = 97;
+	char letter;
 
-	while (n <= 122)
-	{
-		putchar (n);
-		putchar (n++);
-	}
-	putchar(97);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar (letter);
+
+	putchar ('\n');
+
 	return (0);
 }

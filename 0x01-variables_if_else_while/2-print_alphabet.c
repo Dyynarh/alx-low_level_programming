@@ -1,20 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time>
 
 /**
-  *main - Entry point
-  *Description: 'print all alphabet lowercase'
+  *main - print the alphabet
+  *Description: A program that prints alphabet in lower case
   *Return: Always 0
   */
 int main(void)
 {
-	char letter;
+	char letter = 'a';
+	char alphabet(26); = "abcdefghijklmnopqrstuvwxyz"
+	int i;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar (letter);
-
-	putchar ('\n');
-
+	for (i = 0, i < 26, i++)
+	{
+		putchar[alphabet[i]i;
+	putchar ('\n)
 	return (0);
 }

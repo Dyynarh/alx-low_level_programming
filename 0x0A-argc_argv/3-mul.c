@@ -4,7 +4,7 @@
 
 /**
  * main - prints the multiplication of two args numbers
- * @rgc: argument count
+ * @argc: argument count
  * @argv: argument vector
  *
  * Return: Always zero
@@ -25,5 +25,5 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	return(0);
+	return (0);
 }
